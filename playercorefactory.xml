@@ -1,0 +1,18 @@
+<playercorefactory>
+	<players>
+		<player name="Egreat" type="ExternalPlayer" audio="true" video="true">
+			<filename>org.egreat.launcher</filename>
+			<hidexbmc>true</hidexbmc>
+			<playcountminimumtime>120</playcountminimumtime>
+		</player>
+	</players>
+	<rules name="system rules">
+		<rule name=smb protocols="smb" player="Egreat" />
+		<rule name=dvdimage dvdimage="true" player="Egreat"/>
+		<rule name=rtmp protocols="rtmp" player="Egreat"/>
+		<rule name=rtsp protocols="rtsp" player="Egreat" />
+		<rule name=sop protocols="sop" player="Egreat" />
+		<rule name=internetstream internetstream="true" player="Egreat" />
+		<rule name=video video="true" player="Egreat"/>
+	</rules>
+</playercorefactory>
